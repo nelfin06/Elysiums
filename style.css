@@ -1,0 +1,179 @@
+/* --- Global Styles & Variables --- */
+:root {
+    --bg-dark: rgb(3,3,3);
+    --card-bg: rgb(5,39,46);
+    --border-color: #30363D;
+    --text-primary: #ffffff;
+    --text-secondary: #8B949E;
+    --accent-color: rgb(50, 142, 126); /* Ungu Khas */
+    --accent-hover: rgb(22,72,63);
+    --discount-bg: #ef4444;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Homepage Styles --- */
+.banner img { 
+    width: 100%; 
+    display: block; 
+}
+
+.filter-nav { 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 20px; 
+    flex-wrap: wrap;
+}
+
+.filter-btn { 
+    background: var(--card-bg); 
+    color: var(--text-primary); 
+    border: 1px solid var(--border-color); 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: all 0.3s; 
+    font-weight: 700;
+}
+
+.filter-btn.active, .filter-btn:hover { 
+    background: var(--accent-color); 
+    border-color: var(--accent-color); 
+}
+
+.product-grid { 
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    display: grid;
+    gap: 15px; 
+    padding: 15px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.product-card-grid {
+    background-color: var(--card-bg);
+    border-radius: 18px;
+    text-decoration: none;
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card-grid:hover {
+    transform: scale(1.05);
+}
+
+.product-icon-container {
+    background-color: #ffff;
+    margin: 10px;
+    border-radius: 12px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-icon {
+    width: 65%;
+    height: 65%;
+    object-fit: contain;
+}
+
+.product-card-grid .info { padding: 0 15px 15px 15px; }
+.product-card-grid .category { font-size: 0.7rem; color: var(--text-secondary); text-transform: uppercase; font-weight: 700; }
+.product-card-grid .name { font-size: 1rem; font-weight: 700; margin-top: 4px; color: var(--text-primary); }
+.product-status { position: absolute; bottom: 0; left: 0; right: 0; padding: 8px; font-size: 0.8rem; font-weight: 700; color: white; }
+.product-status.buy { background-color: rgb(22,72,63); }
+.product-status.manual { background-color: rgb(176,130,0); color: #1f1d2b; }
+.product-status.sold-out { background-color: rgba(239, 68, 68, 0.9); }
+
+/* --- Product Detail Page Styles --- */
+.product-detail-page { max-width: 800px; margin: 20px auto; padding: 20px; display: flex; flex-direction: column; gap: 15px; }
+.card-section { background-color: var(--card-bg); border-radius: 16px; padding: 20px; border: 1px solid var(--border-color); }
+#product-header { display: flex; gap: 20px; align-items: center; }
+.product-icon-wrapper { background-color: var(--bg-dark); padding: 10px; border-radius: 18px; border: 1px solid var(--border-color); flex-shrink: 0; }
+.product-icon-bg { background-color: white; width: 80px; height: 80px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+.product-icon-detail { width: 60px; height: 60px; }
+.tags-container { display: flex; gap: 10px; align-items: center; margin-bottom: 10px; font-size: 0.9rem; }
+.tag { background-color: var(--accent-color); padding: 4px 10px; border-radius: 8px; font-weight: 700; }
+#product-header h1 { font-size: 2.2rem; margin: 0; }
+.product-description { padding-top: 20px; border-top: 1px solid var(--border-color); margin-top: 20px; }
+.product-description p { margin: 0; color: var(--text-secondary); line-height: 1.6; }
+.collapsible-content { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out; }
+.collapsible-content.expanded { max-height: 1000px; padding-top: 20px; margin-top: 20px; border-top: 1px solid var(--border-color); }
+.read-more-toggle { font-weight: 700; color: var(--accent-color); cursor: pointer; display: inline-block; margin-top: 15px; }
+.terms-text { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
+h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 1px solid var(--border-color); }
+.feature-list { list-style: none; padding: 0; margin: 0; }
+.feature-list li { display: flex; align-items: center; margin-bottom: 10px; color: var(--text-secondary); }
+.feature-list .check { color: #22c55e; font-weight: bold; margin-right: 10px; font-size: 1.2rem; }
+
+/* Gaya Final Kartu Varian */
+.variant-item { display: flex; flex-direction: column; background: var(--card-bg); padding: 15px; border-radius: 12px; margin-bottom: 10px; border: 2px solid transparent; cursor: pointer; transition: border-color 0.3s; }
+.variant-item:hover { border-color: var(--accent-hover); }
+.variant-item.selected { border-color: var(--accent-color); }
+.variant-top { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+.variant-name { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); }
+.selector { width: 24px; height: 24px; border: 2px solid var(--border-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.3s; flex-shrink: 0; }
+.variant-divider { border: none; height: 1px; background-color: var(--border-color); margin: 12px 0; }
+.variant-bottom { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+.variant-stock { font-size: 0.9rem; font-weight: 700; color: #22c55e; }
+.variant-stock i { margin-right: 5px; color: #facc15; }
+.variant-pricing { display: flex; flex-direction: column; align-items: flex-end; }
+.current-price { font-size: 1.4rem; font-weight: 800; color: var(--text-primary); }
+.old-price-container { display: flex; align-items: center; gap: 5px; }
+.old-price { font-size: 0.9rem; color: var(--text-secondary); text-decoration: line-through; }
+.discount { background: var(--discount-bg); color: white; font-size: 0.7rem; padding: 3px 6px; border-radius: 5px; font-weight: 700; }
+.variant-item.selected .selector { border-color: var(--accent-color); background: var(--accent-color); }
+.variant-item.selected .selector::after { content: '✓'; color: white; font-size: 14px; font-weight: bold; }
+
+/* Gaya Modal Popup (Logika Baru Anti-Bug) */
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); z-index: 1000; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease; }
+.order-modal { position: fixed; bottom: 0; left: 0; right: 0; z-index: 1001; background-color: rgb(0,0,0); border-top-left-radius: 20px; border-top-right-radius: 20px; padding: 20px; transform: translateY(100%); transition: transform 0.4s ease-out; }
+body.modal-open .modal-overlay { opacity: 1; visibility: visible; }
+body.modal-open .order-modal { transform: translateY(0); }
+.order-modal::before { content: ''; position: absolute; top: 8px; left: 25%; transform: translateX(-50%); width: 25px; height: 2px; background-color: var(--border-color); border-radius: 2px; }
+.summary-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 15px; }
+.summary-header .title { font-weight: 700; font-size: 1.2rem; }
+.summary-header .close-summary { font-size: 1.5rem; color: var(--text-secondary); cursor: pointer; }
+.info-row { background: rgba(13, 17, 23, 0.5); padding: 10px 15px; border-radius: 8px; margin-bottom: 15px; font-size: 0.9rem; }
+.subtotal-row { display: flex; justify-content: space-between; align-items: center; font-size: 1.2rem; margin: 20px 0; }
+.subtotal-row .price { font-weight: 800; font-size: 1.3rem; }
+.buy-button { background: var(--accent-color); color: white; width: 100%; border: none; padding: 15px; border-radius: 8px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: background-color 0.3s; }
+.buy-button:hover { background: var(--accent-hover); }
+
+/* Gaya Produk Lainnya & Footer */
+.related-products { margin-top: 0; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 15px; }
+.related-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; text-align: center; padding: 15px; text-decoration: none; color: white; transition: background-color 0.3s; }
+.related-card:hover { background-color: #2a273b; }
+.related-card img { width: 50px; height: 50px; margin-bottom: 10px; }
+.site-footer { background-color: var(--card-bg); padding: 40px 20px; border-top: 1px solid var(--border-color); color: var(--text-secondary); }
+.footer-container { max-width: 1200px; margin: 0 auto; }
+.footer-about h3 { color: var(--accent-color); font-size: 1.5rem; margin-bottom: 15px; }
+.footer-about p { line-height: 1.7; margin-bottom: 20px; }
+.social-icons { display: flex; gap: 15px; margin-bottom: 20px; }
+.social-icons a { color: var(--text-primary); background-color: var(--border-color); width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; text-decoration: none; font-size: 1.2rem; transition: background-color 0.3s, color 0.3s; }
+.social-icons a:hover { background-color: var(--accent-color); color: white; }
+.registration-info { font-size: 0.8rem; font-style: italic; }
+.footer-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 30px; margin: 40px 0; border-top: 1px solid var(--border-color); padding-top: 30px; }
+.link-column h4 { color: var(--text-primary); font-size: 1.1rem; margin-bottom: 15px; }
+.link-column ul { list-style: none; padding: 0; margin: 0; }
+.link-column li { margin-bottom: 10px; }
+.link-column a { color: var(--text-secondary); text-decoration: none; transition: color 0.3s; }
+.link-column a:hover { color: var(--accent-color); }
+.footer-bottom { text-align: center; border-top: 1px solid var(--border-color); padding-top: 20px; font-size: 0.9rem; }
+.footer-bottom .fa-heart { color: var(--accent-color); }
+.scroll-to-top { position: fixed; bottom: 20px; right: 20px; background-color: var(--accent-color); color: white; width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; text-decoration: none; opacity: 0; visibility: hidden; transition: opacity 0.3s, visibility 0.3s, transform 0.3s; transform: translateY(20px); z-index: 999; }
+.scroll-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
