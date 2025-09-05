@@ -24,7 +24,7 @@ menuToggle.addEventListener('click', () => {
         terms: "Proses aktivasi dilakukan via website terlebih dahulu oleh pembeli.",
         variants: [
             { name: 'Pro - 7 Hari', price: 5000, oldPrice: 10000, discount: 50 },
-            { name: 'Pro - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
+            { name: 'Pro - 1 Bulan', price: 6000, oldPrice: 16000, discount: 62 },
             { name: 'Pro - 6 Bulan', price: 120000, oldPrice: 300000, discount: 60 },
         ]
     };
