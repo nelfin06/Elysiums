@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium Store | Solusi Kebutuhan Digital</title>
+    <meta name="description" content="Menyediakan berbagai kebutuhan digital premium dengan harga terjangkau.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="images/logo-kecil.png" alt="Elysium Logo" class="header-logo">
+            <a href="index.html" class="store-name">
+                <span class="name-part1">Elysium</span>
+                <span class="name-part2">Store</span>
+            </a>
+        </div>
+        <nav class="desktop-nav">
+            <a href="#produk">Produk</a>
+            <a href="cara-order.html">Cara Order</a>
+            <a href="https://wa.me/6285138577815">Kontak</a>
+            <a href="info.html">Info</a> </nav>
+        </nav>
+        <button id="menu-toggle" class="menu-toggle"><i class="fas fa-bars"></i></button>
+    </header>
+    <nav id="mobile-menu" class="mobile-menu">
+        <a href="#produk">Produk</a>
+        <a href="cara-order.html">Cara Order</a>
+        <a href="https://wa.me/6285138577815">Kontak</a>
+        <a href="info.html">Info</a> </nav>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <span class="hero-tagline">#SolusiDigitalTerpercaya</span>
+            <h1>Elysium Digital Store</h1>
+            <p class="hero-subtitle">Menyediakan <span id="typing-text" class="typing-text"></span></p>
+            <p class="hero-description">
+                Akses mudah dan cepat ke berbagai kebutuhan digital premium dengan harga terjangkau dan layanan terpercaya.
+            </p>
+            <div class="hero-buttons">
+                <a href="#produk" class="btn btn-primary">Lihat Semua Produk</a>
+                <a href="https://wa.me/6285138577815" target="_blank" class="btn btn-secondary">Tanya Admin</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" class="product-section">
+        <nav class="new-filter-nav">
+            <div class="category-filters-scroll">
+                <button class="filter-btn active" data-category="semua">Semua</button>
+                <button class="filter-btn" data-category="desain">Desain</button>
+                <button class="filter-btn" data-category="musik-video">Musik & Video</button>
+                <button class="filter-btn" data-category="produktivitas">Produktivitas</button>
+            </div>
+            <div class="stock-filter-container">
+                <button id="stock-filter-btn" class="filter-btn icon-btn">
+                    <i class="fas fa-filter"></i> Filter
+                </button>
+                <div id="stock-filter-dropdown" class="stock-filter-dropdown hidden">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="hide-sold-out-checkbox">
+                        <span>Sembunyikan Stok Kosong</span>
+                    </label>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div id="product-grid" class="product-grid">
+                </div>
+        </main>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Elysium Store</h3>
+                <p>Kami menawarkan produk digital berkualitas di berbagai bidang hiburan, termasuk musik, film, dan konten digital lainnya. Kami menyediakan akses mudah dan cepat ke produk digital terpopuler dengan harga terjangkau.</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/6285138577815" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://discord.gg/BEe5Ww6xTf" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            </div>
+    
+            <div class="footer-links">
+                <div class="link-column"><h4>Kategori Produk</h4><ul><li><a href="#">Desain</a></li><li><a href="#">Musik & Video</a></li><li><a href="#">Productivity</a></li></ul></div>
+                <div class="link-column"><h4>Informasi</h4><ul><li><a href="cara-order.html">Cara Order di Website</a>
+                <div class="link-column"><h4>Lainnya</h4><ul><li><a href="https://wa.me/6285138577815">Tanya Admin</a>
+            </div>
+    
+            <div class="footer-bottom"><i class="fa-solid fa-love"></i>© Elysium Store 2025</p></div>
+        </div>
+    </footer>
+    
+    <a href="#" id="scroll-to-top" class="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+    <script src="background-animation.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
