@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'capcut', name: 'CapCut', category: 'desain', image: 'images/capcut.png', status: 'Beli Sekarang', statusType: 'buy' },
         { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: 'images/alightmotion.png', status: 'Beli Sekarang', statusType: 'buy' },
         { id: 'youtube', name: 'YouTube', category: 'musik-video', image: 'images/youtube.png', status: 'Stok Habis', statusType: 'sold-out' },
-        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: 'images/netflix.png', status: 'Sto', statusType: 'buy' },
+        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: 'images/netflix.png', status: 'Beli Sekarang', statusType: 'buy' },
         { id: 'viu', name: 'Viu', category: 'musik-video', image: 'images/viu.png', status: 'Beli Sekarang', statusType: 'buy' },
         { id: 'prime-video', name: 'Prime Video', category: 'musik-video', image: 'images/prime.png', status: 'Beli Sekarang', statusType: 'buy' },
         { id: 'apple-music', name: 'Apple Music', category: 'musik-video', image: 'images/apple-music.png', status: 'Beli Sekarang', statusType: 'buy' },
