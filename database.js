@@ -413,6 +413,48 @@ const allProducts = [
         ]
     },
     
+        {
+        id: 'bstation',
+        name: 'Bstation',
+        icon: '../images/bstation.png', // Pastikan gambar bstation.png ada di folder /images
+        tag: 'Musik & Video',
+        description: 'Bstation (Bilibili) adalah platform video terkemuka untuk para penggemar anime. Nikmati streaming ribuan judul anime terbaru dan klasik, video kreatif, dan konten eksklusif lainnya dengan kualitas terbaik.',
+        features: [
+            "Nonton semua anime tanpa iklan",
+            "Akses ke konten premium eksklusif",
+            "Kualitas video hingga 1080p dan 4K",
+            "Download anime untuk ditonton offline",
+            "Dukung kreator favorit Anda"
+        ],
+        compatibility: [ "Android", "iOS", "Website", "Smart TV" ],
+        terms: "Akun bersifat sharing atau private sesuai varian. Dilarang mengubah detail akun untuk varian sharing.",
+        variants: [
+            { name: 'Sharing - 1 Bulan', price: 6000, oldPrice: 25000, discount: 76 },
+            { name: 'Private - 1 Bulan', price: 23000, oldPrice: 45000, discount: 49 },
+        ]
+    },
+    
+    {
+        id: 'vidio-platinum',
+        name: 'Vidio Platinum',
+        icon: '../images/vidio-platinum.png', // Pastikan gambar vidio-platinum.png ada di folder /images
+        tag: 'Musik & Video',
+        description: 'Vidio adalah rumah bagi konten lokal terbaik. Nikmati tayangan olahraga live eksklusif seperti BRI Liga 1, Vidio Original Series, film Hollywood, drama Korea, dan channel TV internasional.',
+        features: [
+            "Nonton Live Streaming Olahraga (BRI Liga 1, UCL, dll)",
+            "Akses Vidio Original Series",
+            "Ribuan film dan serial Hollywood",
+            "Anime dan drama Korea terpopuler",
+            "Bebas iklan (untuk konten VOD)"
+        ],
+        compatibility: [ "Android", "iOS", "Website", "Smart TV" ],
+        terms: "Aktivasi menggunakan nomor HP yang terdaftar di aplikasi Vidio.",
+        variants: [
+            { name: 'Sharing - 1 Bulan', price: 16000, oldPrice: 39000, discount: 59 },
+            { name: 'Private - 1 Bulan', price: 25000, oldPrice: 59000, discount: 58 },
+        ]
+    },
+    
     {
         id: 'zoom',
         name: 'Zoom',
