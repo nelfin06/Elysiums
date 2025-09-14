@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: 'images/alightmotion.png', status: 'Fast Delivery', statusType: 'buy' },
         
-        { id: 'youtube', name: 'YouTube', category: 'musik-video', image: 'images/youtube.png', status: 'Slow Delivery', statusType: 'manual' },
+        { id: 'youtube', name: 'YouTube', category: 'musik-video', image: 'images/youtube.png', status: 'Stok Habis', statusType: 'sold-out' },
         
         { id: 'netflix', name: 'Netflix', category: 'musik-video', image: 'images/netflix.png', status: 'Stok Habis', statusType: 'sold-out' },
         
