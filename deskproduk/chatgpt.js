@@ -58,7 +58,7 @@ menuToggle.addEventListener('click', () => {
     const openModal = (variant) => {
         orderModal.innerHTML = `
             <div class="summary-header"><span class="title">${productData.name} - ${variant.name}</span><span class="close-summary">&times;</span></div>
-            <div class="info-row">Private, S&K: Minta Admin</div>
+            <div class="info-row">Private, S&K: Elysiums.site/info</div>
             <div class="info-row" style="color:#22c55e;">Proses Dilakukan Manual Lewat Wa</div>
             <div class="subtotal-row"><span>Subtotal</span><span class="price">Rp. ${variant.price.toLocaleString('id-ID')}</span></div>
             <button class="buy-button">Beli Sekarang</button>
