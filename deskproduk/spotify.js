@@ -23,8 +23,8 @@ menuToggle.addEventListener('click', () => {
         compatibility: [ "Android", "iOS", "Semua Perangkat" ],
         terms: "Akun Private Dan Dari Admin",
         variants: [
-            { name: '1PCS Student Premium - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
-           { name: '5PCS Student Premium - 1 Bulan', price: 30000, oldPrice: 80000, discount: 62 },
+            { name: '1PCS Student - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
+           { name: '5PCS Student - 1 Bulan', price: 30000, oldPrice: 80000, discount: 62 },
         ]
     };
 
