@@ -24,7 +24,7 @@ menuToggle.addEventListener('click', () => {
         terms: "Akun Private Dan Dari Admin",
         variants: [
             { name: '1PCS Student Premium - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
-           { name: '5PCS Student Premium - 1 Bulan', price: 30000, oldPrice: , discount: 62 },
+           { name: '5PCS Student Premium - 1 Bulan', price: 30000, oldPrice: 80000, discount: 62 },
         ]
     };
 
@@ -56,7 +56,7 @@ menuToggle.addEventListener('click', () => {
     const openModal = (variant) => {
         orderModal.innerHTML = `
             <div class="summary-header"><span class="title">${productData.name} - ${variant.name}</span><span class="close-summary">&times;</span></div>
-            <div class="info-row">Private, S&K: Cek Menu Info</div>
+            <div class="info-row">Private, S&K: Minta Admin</div>
             <div class="info-row" style="color:#22c55e;">Dikirim langsung setelah pembayaran</div>
             <div class="subtotal-row"><span>Subtotal</span><span class="price">Rp. ${variant.price.toLocaleString('id-ID')}</span></div>
             <button class="buy-button">Beli Sekarang</button>
@@ -80,7 +80,7 @@ menuToggle.addEventListener('click', () => {
         const item = document.createElement('div');
         item.className = 'variant-item';
         item.dataset.index = index;
-        item.innerHTML = `<div class="variant-top"><span class="variant-name">${variant.name}</span><div class="selector"></div></div><hr class="variant-divider"><div class="variant-bottom"><div class="variant-stock"><i class="fa-solid fa-wand-sparkles"></i> Ask Admin</div><div class="variant-pricing"><span class="current-price">Rp. ${variant.price.toLocaleString('id-ID')}</span><div class="old-price-container"><span class="old-price">Rp. ${variant.oldPrice.toLocaleString('id-ID')}</span><span class="discount">${variant.discount}%</span></div></div></div>`;
+        item.innerHTML = `<div class="variant-top"><span class="variant-name">${variant.name}</span><div class="selector"></div></div><hr class="variant-divider"><div class="variant-bottom"><div class="variant-stock"><i class="fa-solid fa-wand-sparkles"></i> TERSEDIA</div><div class="variant-pricing"><span class="current-price">Rp. ${variant.price.toLocaleString('id-ID')}</span><div class="old-price-container"><span class="old-price">Rp. ${variant.oldPrice.toLocaleString('id-ID')}</span><span class="discount">${variant.discount}%</span></div></div></div>`;
         variantsList.appendChild(item);
     });
     variantsList.addEventListener('click', (e) => {
