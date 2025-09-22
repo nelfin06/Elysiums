@@ -11,7 +11,7 @@ const SEMUA_PRODUK = [
         syaratProduk: [
             "Produk berupa: ChatGPT",
             "Paket: Plus dan Team",
-            "Masa aktif: 1 minggu dan 1 bulan serta 3 bulan",
+            "Masa aktif: 7 Hari dan 1 bulan serta 3 bulan",
             "Aktivasi dilakukan melalui website dan aplikasi resmi",
             "Maksimal digunakan di 1 perangkat (untuk sharing)",
             "Maksimal digunakan di 3/4 perangkat (untuk private)",
