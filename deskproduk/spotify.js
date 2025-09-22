@@ -23,7 +23,7 @@ menuToggle.addEventListener('click', () => {
         compatibility: [ "Android", "iOS", "Semua Perangkat" ],
         terms: "Elysiums.site/ketentuan-garansi",
         variants: [
-            { name: 'Student Premium - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
+            { name: '1PCS Student Premium - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
         ]
     };
 
