@@ -30,6 +30,7 @@ menuToggle.addEventListener('click', () => {
          { name: 'Sharing+ 5U - 7 Hari', price: 15000, oldPrice: 30000, discount: 50 },
         { name: 'Sharing+ 5U - 1 Bulan', price: 30000, oldPrice: 80000, discount: 62 },
          { name: 'Sharing+ 5U - 3 Bulan', price: 85000, oldPrice: 100000, discount: 15 },
+      { name: 'Jaspay Team - 1 Bulan', price: 35000, oldPrice: 50000, discount: 30 },
         ]
     };
 
