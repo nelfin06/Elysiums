@@ -21,7 +21,7 @@ menuToggle.addEventListener('click', () => {
             "Harga lebih hemat khusus pelajar"
         ],
         compatibility: [ "Android", "iOS", "Semua Perangkat" ],
-        terms: "Elysiums.site/ketentuan-garansi",
+        terms: "Akun Private Dan Dari Admin",
         variants: [
             { name: '1PCS Student Premium - 1 Bulan', price: 8000, oldPrice: 16000, discount: 50 },
            { name: '5PCS Student Premium - 1 Bulan', price: 30000, oldPrice: , discount: 62 },
