@@ -26,6 +26,7 @@ menuToggle.addEventListener('click', () => {
             { name: '1P1U - 1 Bulan', price: 25000, oldPrice: 54000, discount: 54 },
             { name: '1P2U - 1 Bulan', price: 18000, oldPrice: 54000, discount: 67 },
             { name: 'Semi Private - 1 Bulan', price: 30000, oldPrice: 120000, discount: 75 },
+           { name: 'Sharing Account - LifeTime', price: 15500, oldPrice: 86000, discount: 82 },
             { name: 'Private Account - 1 Bulan', price: 145000, oldPrice: 186000, discount: 22 },
         ]
     };
