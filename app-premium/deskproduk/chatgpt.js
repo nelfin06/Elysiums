@@ -23,10 +23,6 @@ menuToggle.addEventListener('click', () => {
         compatibility: [ "Android", "iOS", "Semua Perangkat" ],
         terms: "Akun yang diberikan adalah akun private & sharing ( Tergantung Yang Dibeli ), Proses Aktivasi 1 - 3 Hari.",
         variants: [
-            { name: 'Private+ NOGAR - 1 Bulan', price: 25000, oldPrice: 50000, discount: 50 },
-            { name: 'Private+ GAR - 1 Bulan', price: 60000, oldPrice: 100000, discount: 40 },
-            { name: 'Private+ GAR - 3 Bulan', price: 115000, oldPrice: 250000, discount: 54 },
-           { name: 'Private+ GAR - 6 Bulan', price: 450000, oldPrice: 900000, discount: 50 },
          { name: 'Sharing+ 5U - 7 Hari', price: 15000, oldPrice: 30000, discount: 50 },
         { name: 'Sharing+ 5U - 1 Bulan', price: 30000, oldPrice: 80000, discount: 62 },
          { name: 'Sharing+ 5U - 3 Bulan', price: 85000, oldPrice: 100000, discount: 15 },
