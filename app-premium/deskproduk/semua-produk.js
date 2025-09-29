@@ -43,6 +43,29 @@ const SEMUA_PRODUK = [
             "Paket Plus 1 dan 2 Bulan wajib menggunakan domain dari admin"
         ]
     },
+    
+            {
+        // --- TAMBAHKAN OBJEK BARU INI UNTUK NETFLIX ---
+        id: 'netflix',
+        name: 'Netflix ( LifeTime )',
+        terms: "AutoRenew.",
+        syaratProduk: [
+            "Produk berupa: Netflix",
+            "Paket: Sharing LifeTime",
+            "Masa aktif: Lifetime/Selamanya",
+            "Aktivasi dilakukan melalui aplikasi resmi",
+            "Support All Device",
+            "AutoRenew Langganan",
+            "Dilarang Mengotak-atik Akun",
+            "Maksimal digunakan di 1 perangkat.",
+            "Tidak ada refund setelah aktivasi berhasil."
+        ],
+        ketentuanGaransi: [
+            "Garansi (hanya berlaku sampai PERTAMA KALI LOGIN)",
+            "Garansi tidak termasuk apabila akun mengalami banned / suspend"
+        ]
+    },
+    
     {
         // --- TAMBAHKAN ATAU GANTI OBJEK VIU DENGAN INI ---
         id: 'viu',
