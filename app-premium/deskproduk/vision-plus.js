@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const productData = {
         id: 'vision-plus',
         name: 'Vision+',
-        icon: '../images/vision-plus.png', // Pastikan gambar vision-plus.png ada di folder /images
+        icon: '../../images/vision-plus.png', // Pastikan gambar vision-plus.png ada di folder /images
         tag: 'Musik & Video',
         description: 'Vision+ adalah layanan streaming dari MNC Group yang menayangkan channel TV lokal dan internasional terlengkap, serial original, film, serta pertandingan olahraga eksklusif.',
         features: [
