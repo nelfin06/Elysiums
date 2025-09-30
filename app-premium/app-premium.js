@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Slow Delivery', statusType: 'manual' },
         
+       { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Slow Delivery', statusType: 'manual' },
+       
+      { id: 'vision-plus', name: 'Vision+', category: 'musik-video', image: '../../images/vision-plus.png', status: 'Slow Delivery', statusType: 'manual' },
+        
         { id: 'viu', name: 'Viu', category: 'musik-video', image: '../../images/viu.png', status: 'Fast Delivery', statusType: 'buy' },
         
         { id: 'prime-video', name: 'Prime Video', category: 'musik-video', image: '../../images/prime.png', status: 'Fast Delivery', statusType: 'buy' },
