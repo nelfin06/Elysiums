@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const productData = {
         id: 'youku',
         name: 'Youku',
-        icon: '../images/youku.png', // Pastikan gambar youku.png ada di folder /images
+        icon: '../../images/youku.png', // Pastikan gambar youku.png ada di folder /images
         tag: 'Musik & Video',
         description: 'Youku adalah salah satu platform streaming terbesar di China, menawarkan ribuan drama China eksklusif, film, variety show, dan konten orisinal yang tidak akan Anda temukan di tempat lain.',
         features: [
