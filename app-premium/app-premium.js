@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'canva', name: 'Canva', category: 'desain', image: '../../images/canva.png', status: 'Slow Delivery', statusType: 'manual' },
         
-        { id: 'capcut', name: 'CapCut', category: 'desain', image: '../../images/capcut.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'capcut', name: 'CapCut', category: 'desain', image: '../../images/capcut.png', status: 'Stok Habis', statusType: 'sold-out' },
         
         { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: '../../images/alightmotion.png', status: 'Fast Delivery', statusType: 'buy' },
         
