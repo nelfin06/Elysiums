@@ -5,15 +5,15 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'spotify', name: 'Spotify', category: 'musik-video', image: '../../images/spotify.png', status: 'Fast Delivery', statusType: 'woi' },
         
-        { id: 'canva', name: 'Canva', category: 'desain', image: '../../images/canva.png', status: 'Slow Delivery', statusType: 'sold-out' },
+        { id: 'canva', name: 'Canva', category: 'desain', image: '../../images/canva.png', status: 'Stok Habis', statusType: 'sold-out' },
         
-        { id: 'capcut', name: 'CapCut', category: 'desain', image: '../../images/capcut.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'capcut', name: 'CapCut', category: 'desain', image: '../../images/capcut.png', status: 'Fast Delivery', statusType: 'woi' },
         
-        { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: '../../images/alightmotion.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: '../../images/alightmotion.png', status: 'Fast Delivery', statusType: 'woi' },
         
-        { id: 'youtube', name: 'YouTube', category: 'musik-video', image: '../../images/youtube.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'youtube', name: 'YouTube', category: 'musik-video', image: '../../images/youtube.png', status: 'Fast Delivery', statusType: 'woi' },
         
-        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Slow Delivery', statusType: 'manual' },
+        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Stok Habis', statusType: 'sold-out' },
         
        { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Slow Delivery', statusType: 'manual' },
        
