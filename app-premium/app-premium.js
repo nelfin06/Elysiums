@@ -15,41 +15,41 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Stok Habis', statusType: 'sold-out' },
         
-       { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Slow Delivery', statusType: 'manual' },
+       { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Slow Delivery', statusType: 'woi' },
        
-      { id: 'vision-plus', name: 'Vision+', category: 'musik-video', image: '../../images/vision-plus.png', status: 'Slow Delivery', statusType: 'manual' },
+      { id: 'vision-plus', name: 'Vision+', category: 'musik-video', image: '../../images/vision-plus.png', status: 'Slow Delivery', statusType: 'woi' },
         
-        { id: 'viu', name: 'Viu', category: 'musik-video', image: '../../images/viu.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'viu', name: 'Viu', category: 'musik-video', image: '../../images/viu.png', status: 'Fast Delivery', statusType: 'woi' },
         
-        { id: 'prime-video', name: 'Prime Video', category: 'musik-video', image: '../../images/prime.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'prime-video', name: 'Prime Video', category: 'musik-video', image: '../../images/prime.png', status: 'Fast Delivery', statusType: 'sold-out' },
         
-        { id: 'apple-music', name: 'Apple Music', category: 'musik-video', image: '../../images/apple-music.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'apple-music', name: 'Apple Music', category: 'musik-video', image: '../../images/apple-music.png', status: 'Fast Delivery', statusType: 'woi' },
         
-        { id: 'disney-plus', name: 'Disney+', category: 'musik-video', image: '../../images/disney-plus.png', status: 'Fast Delivery', statusType: 'manual' },
+        { id: 'disney-plus', name: 'Disney+', category: 'musik-video', image: '../../images/disney-plus.png', status: 'Stok Habis', statusType: 'sold-out' },
         
-        { id: 'expressvpn', name: 'VPN Express', category: 'produktivitas', image: '../../images/expressvpn.png', status: 'Fast Delivery', statusType: 'buy' },
+        { id: 'expressvpn', name: 'VPN Express', category: 'produktivitas', image: '../../images/expressvpn.png', status: 'Fast Delivery', statusType: 'woi' },
         
-    { id: 'surfsharkvpn', name: 'VPN Surfshark', category: 'produktivitas', image: '../../images/surfsharkvpn.png', status: 'Slow Delivery', statusType: 'manual' },
+    { id: 'surfsharkvpn', name: 'VPN Surfshark', category: 'produktivitas', image: '../../images/surfsharkvpn.png', status: 'Slow Delivery', statusType: 'woi' },
     
-    { id: 'hmavpn', name: 'VPN HMA', category: 'produktivitas', image: '../../images/hmavpn.png', status: 'Slow Delivery', statusType: 'manual' },
+    { id: 'hmavpn', name: 'VPN HMA', category: 'produktivitas', image: '../../images/hmavpn.png', status: 'Stok Habis', statusType: 'sold-out' },
     
     { id: 'duolingo', name: 'Duolingo', category: 'produktivitas', image: '../../images/duolingo.png', status: 'Stok Habis', statusType: 'sold-out' },
     
-    { id: 'zoom', name: 'Zoom', category: 'produktivitas', image: '../../images/zoom.png', status: 'Fast Delivery', statusType: 'buy' },
+    { id: 'zoom', name: 'Zoom', category: 'produktivitas', image: '../../images/zoom.png', status: 'Fast Delivery', statusType: 'woi' },
     
-   { id: 'gemini', name: 'AI Gemini', category: 'produktivitas', image: '../../images/gemini.png', status: 'Slow Delivery', statusType: 'manual' },
+   { id: 'gemini', name: 'AI Gemini', category: 'produktivitas', image: '../../images/gemini.png', status: 'Slow Delivery', statusType: 'woi' },
    
-    { id: 'perplexity', name: 'AI Perplexity', category: 'produktivitas', image: '../../images/perplexity.png', status: 'Slow Delivery', statusType: 'manual' },
+    { id: 'perplexity', name: 'AI Perplexity', category: 'produktivitas', image: '../../images/perplexity.png', status: 'Stok Habis', statusType: 'sold-out' },
     
     { id: 'wetv', name: 'WETV', category: 'musik-video', image: '../../images/wetv.png', status: 'Stok Habis', statusType: 'sold-out' },
     
-    { id: 'loklok', name: 'LokLok', category: 'musik-video', image: '../../images/loklok.png', status: 'Slow Delivery', statusType: 'manual' },
+    { id: 'loklok', name: 'LokLok', category: 'musik-video', image: '../../images/loklok.png', status: 'Slow Delivery', statusType: 'woi' },
     
     { id: 'iqiyi', name: 'IQIYI', category: 'musik-video', image: '../../images/iqiyi.png', status: 'Stok Habis', statusType: 'sold-out' },
     
-    { id: 'bstation', name: 'Bstation', category: 'musik-video', image: '../../images/bstation.png', status: 'Slow Delivery', statusType: 'manual' },
+    { id: 'bstation', name: 'Bstation', category: 'musik-video', image: '../../images/bstation.png', status: 'Stok Habis', statusType: 'sold-out' },
     
-    { id: 'vidio-platinum', name: 'Vidio Platinum', category: 'musik-video', image: '../../images/vidio-platinum.png', status: 'Slow Delivery', statusType: 'manual' },
+    { id: 'vidio-platinum', name: 'Vidio Platinum', category: 'musik-video', image: '../../images/vidio-platinum.png', status: 'Stok Habis', statusType: 'sold-out' },
 ];
 
     const productGrid = document.getElementById('product-grid');
