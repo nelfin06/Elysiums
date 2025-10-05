@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = [
         { id: 'chatgpt', name: 'AI ChatGPT', category: 'produktivitas', image: '../../images/chatgpt.png', status: 'Stok Habis', statusType: 'sold-out' },
         
-        { id: 'spotify', name: 'Spotify', category: 'musik-video', image: '../../images/spotify.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'spotify', name: 'Spotify', category: 'musik-video', image: '../../images/spotify.png', status: 'Stok Habis', statusType: 'sold-out' },
         
         { id: 'canva', name: 'Canva', category: 'desain', image: '../../images/canva.png', status: 'Proses Manual', statusType: 'manual' },
         
