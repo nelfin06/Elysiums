@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'canva', name: 'Canva', category: 'desain', image: '../../images/canva.png', status: 'Proses Manual', statusType: 'manual' },
         
-        { id: 'capcut', name: 'CapCut', category: 'desain', image: '../../images/capcut.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'capcut', name: 'CapCut', category: 'desain', image: '../../images/capcut.png', status: 'Beli Sekarang', statusType: 'buy' },
         
-        { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: '../../images/alightmotion.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: '../../images/alightmotion.png', status: 'Beli Sekarang', statusType: 'buy' },
         
         { id: 'youtube', name: 'YouTube', category: 'musik-video', image: '../../images/youtube.png', status: 'Fast Delivery', statusType: 'woi' },
         
