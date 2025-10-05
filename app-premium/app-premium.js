@@ -11,39 +11,39 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'alight-motion', name: 'Alight Motion', category: 'desain', image: '../../images/alightmotion.png', status: 'Beli Sekarang', statusType: 'buy' },
         
-        { id: 'youtube', name: 'YouTube', category: 'musik-video', image: '../../images/youtube.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'youtube', name: 'YouTube', category: 'musik-video', image: '../../images/youtube.png', status: 'Proses Manual', statusType: 'manual' },
         
-        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Stok Habis', statusType: 'sold-out' },
+        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Beli Sekarang', statusType: 'buy' },
         
-       { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Slow Delivery', statusType: 'woi' },
+       { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Stok Habis', statusType: 'sold-out' },
        
-      { id: 'vision-plus', name: 'Vision+', category: 'musik-video', image: '../../images/vision-plus.png', status: 'Slow Delivery', statusType: 'woi' },
+      { id: 'vision-plus', name: 'Vision+', category: 'musik-video', image: '../../images/vision-plus.png', status: 'Stok Habis', statusType: 'sold-out' },
         
-        { id: 'viu', name: 'Viu', category: 'musik-video', image: '../../images/viu.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'viu', name: 'Viu', category: 'musik-video', image: '../../images/viu.png', status: 'Beli Sekarang', statusType: 'buy' },
         
-        { id: 'prime-video', name: 'Prime Video', category: 'musik-video', image: '../../images/prime.png', status: 'Fast Delivery', statusType: 'sold-out' },
+        { id: 'prime-video', name: 'Prime Video', category: 'musik-video', image: '../../images/prime.png', status: 'Beli Sekarang', statusType: 'buy' },
         
-        { id: 'apple-music', name: 'Apple Music', category: 'musik-video', image: '../../images/apple-music.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'apple-music', name: 'Apple Music', category: 'musik-video', image: '../../images/apple-music.png', status: 'Stok Habis', statusType: 'sold-out' },
         
-        { id: 'disney-plus', name: 'Disney+', category: 'musik-video', image: '../../images/disney-plus.png', status: 'Stok Habis', statusType: 'sold-out' },
+        { id: 'disney-plus', name: 'Disney+', category: 'musik-video', image: '../../images/disney-plus.png', status: 'Beli Sekarang', statusType: 'buy' },
         
-        { id: 'expressvpn', name: 'VPN Express', category: 'produktivitas', image: '../../images/expressvpn.png', status: 'Fast Delivery', statusType: 'woi' },
+        { id: 'expressvpn', name: 'VPN Express', category: 'produktivitas', image: '../../images/expressvpn.png', status: 'Belu Sekarang', statusType: 'buy' },
         
-    { id: 'surfsharkvpn', name: 'VPN Surfshark', category: 'produktivitas', image: '../../images/surfsharkvpn.png', status: 'Slow Delivery', statusType: 'woi' },
+    { id: 'surfsharkvpn', name: 'VPN Surfshark', category: 'produktivitas', image: '../../images/surfsharkvpn.png', status: 'Proses Manual', statusType: 'manual' },
     
     { id: 'hmavpn', name: 'VPN HMA', category: 'produktivitas', image: '../../images/hmavpn.png', status: 'Stok Habis', statusType: 'sold-out' },
     
     { id: 'duolingo', name: 'Duolingo', category: 'produktivitas', image: '../../images/duolingo.png', status: 'Stok Habis', statusType: 'sold-out' },
     
-    { id: 'zoom', name: 'Zoom', category: 'produktivitas', image: '../../images/zoom.png', status: 'Fast Delivery', statusType: 'woi' },
+    { id: 'zoom', name: 'Zoom', category: 'produktivitas', image: '../../images/zoom.png', status: 'Beli Sekarang', statusType: 'buy' },
     
-   { id: 'gemini', name: 'AI Gemini', category: 'produktivitas', image: '../../images/gemini.png', status: 'Slow Delivery', statusType: 'woi' },
+   { id: 'gemini', name: 'AI Gemini', category: 'produktivitas', image: '../../images/gemini.png', status: 'Beli Sekarang', statusType: 'buy' },
    
     { id: 'perplexity', name: 'AI Perplexity', category: 'produktivitas', image: '../../images/perplexity.png', status: 'Stok Habis', statusType: 'sold-out' },
     
     { id: 'wetv', name: 'WETV', category: 'musik-video', image: '../../images/wetv.png', status: 'Stok Habis', statusType: 'sold-out' },
     
-    { id: 'loklok', name: 'LokLok', category: 'musik-video', image: '../../images/loklok.png', status: 'Slow Delivery', statusType: 'woi' },
+    { id: 'loklok', name: 'LokLok', category: 'musik-video', image: '../../images/loklok.png', status: 'Beli Sekarang', statusType: 'buy' },
     
     { id: 'iqiyi', name: 'IQIYI', category: 'musik-video', image: '../../images/iqiyi.png', status: 'Stok Habis', statusType: 'sold-out' },
     
