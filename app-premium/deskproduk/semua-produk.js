@@ -161,7 +161,7 @@ const SEMUA_PRODUK = [
         ],
         ketentuanGaransi: [
             "Garansi (hanya berlaku sampai PERTAMA KALI LOGIN)",
-            "Garansi tidak termasuk apabila akun mengalami banned / suspend"
+            "Garansi tidak termasuk apabila akun mengalami banned, suspend & backfree"
         ]
     },
 
