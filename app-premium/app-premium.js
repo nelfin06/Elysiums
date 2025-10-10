@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         { id: 'youtube', name: 'YouTube', category: 'musik-video', image: '../../images/youtube.png', status: 'Proses Manual', statusType: 'manual' },
         
-        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Beli Sekarang', statusType: 'buy' },
+        { id: 'netflix', name: 'Netflix', category: 'musik-video', image: '../../images/netflix.png', status: 'Stok Habis', statusType: 'sold-out' },
         
        { id: 'youku', name: 'YouKu', category: 'musik-video', image: '../../images/youku.png', status: 'Stok Habis', statusType: 'sold-out' },
        
