@@ -23,8 +23,8 @@ menuToggle.addEventListener('click', () => {
         compatibility: [ "Android", "iOS", "Semua Perangkat" ],
         terms: "Proses aktivasi dilakukan via website terlebih dahulu oleh pembeli.",
         variants: [
-            { name: 'Pro - 7 Hari', price: 5000, oldPrice: 10000, discount: 50 },
-            { name: 'Pro - 1 Bulan', price: 10000, oldPrice: 16000, discount: 50 },
+             { name: 'Pro - 14 Hari', price: 7500, oldPrice: 1500, discount: 50 },
+            { name: 'Pro - 1 Bulan', price: 13000, oldPrice: 16000, discount: 50 },
         ]
     };
 
