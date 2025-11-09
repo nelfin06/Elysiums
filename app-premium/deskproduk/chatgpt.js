@@ -21,7 +21,7 @@ menuToggle.addEventListener('click', () => {
             "Akses langsung via web resmi OpenAI"
         ],
         compatibility: [ "Android", "iOS", "Semua Perangkat" ],
-        terms: "Akun yang diberikan adalah akun private & sharing ( Tergantung Yang Dibeli ), Proses Aktivasi 1 - 3 Hari.",
+        terms: "Akun yang diberikan adalah akun private.",
         variants: [
          { name: 'Plus - 1 Bulan', price: 10000, oldPrice: 20000, discount: 50 },
         { name: 'Team+ - 1 Bulan', price: 15000, oldPrice: 30000, discount: 50 },
