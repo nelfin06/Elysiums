@@ -18,9 +18,7 @@ const SEMUA_PRODUK = [
             "Tidak ada refund setelah aktivasi berhasil"
         ],
         ketentuanGaransi: [
-            "Garansi 1/3 bulan (hanya berlaku untuk kendala backfree)",
-            "Garansi dihitung sejak tanggal pembelian",
-            "Garansi tidak berlaku apabila akun mengalami banned / suspend"
+            "NO GARANSI",
         ]
     },
     {
